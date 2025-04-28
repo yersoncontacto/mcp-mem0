@@ -3,7 +3,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Instalar dependencias necesarias
-RUN pip install --no-cache-dir fastapi uvicorn requests pydantic python-dotenv
+RUN pip install --no-cache-dir fastapi uvicorn requests pydantic python-dotenv mcp-python-sdk
 
 # Exponer el puerto
 EXPOSE 6380
